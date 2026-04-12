@@ -1248,6 +1248,15 @@
             "=",
             "0"
           ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"Game\""
+          ]
         }
       ]
     },
@@ -1471,9 +1480,35 @@
             "",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
+        {
+          "type": {
+            "value": "PauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"Game\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "timer",
+            "Text",
+            "+",
+            "ToString(roundTo(TimerElapsedTime(\"Game\"), 3)) + \"s\""
+          ]
+        },
         {
           "type": {
             "value": "SetBooleanVariable"
