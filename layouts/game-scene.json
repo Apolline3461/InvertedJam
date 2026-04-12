@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.39251611754882443,
+    "zoomFactor": 0.1500267925502572,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -45,31 +45,9 @@
       "width": 0,
       "x": 608,
       "y": 328,
-      "zOrder": 1,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "locked": true,
-      "name": "Ground_Tilemap",
-      "persistentUuid": "140c37d7-fd0a-4882-83ed-142e8f549ba8",
-      "width": 0,
-      "x": -64,
-      "y": -64,
-      "zOrder": -2,
-      "numberProperties": [],
-      "stringProperties": [
-        {
-          "name": "tilemap",
-          "value": "{\"tileWidth\":64,\"tileHeight\":64,\"dimX\":22,\"dimY\":13,\"layers\":[{\"id\":0,\"alpha\":1,\"tiles\":[[0,1,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,3,7,7,7,7,7,7,7,7,7,7,7,7,7,7,5,0,0,0],[0,0,0,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,0,0,2],[0,0,0,7,7,0,0,0,0,0,0,0,0,0,0,2,0,7,7,0,0,0],[0,2,0,7,7,0,1,2,0,1,0,0,0,0,2,0,0,7,7,0,0,0],[0,0,0,7,7,0,0,0,0,0,0,0,0,0,0,0,0,7,7,0,0,0],[0,0,0,7,7,0,0,0,0,0,0,0,0,0,0,1,0,7,7,0,0,0],[0,0,0,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,0,0,0],[0,0,0,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,8,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0]]}]}"
-        }
-      ],
       "initialVariables": []
     },
     {
@@ -81,8 +59,8 @@
       "name": "Plant_Obstacle",
       "persistentUuid": "1ef6f774-a666-42ab-bcc0-4ecdb8656e6a",
       "width": 0,
-      "x": 1152,
-      "y": 192,
+      "x": 1209,
+      "y": 137,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -97,8 +75,8 @@
       "name": "Plant_Obstacle",
       "persistentUuid": "a95eccb9-3ddc-4f20-aeec-55dd40e9cf56",
       "width": 0,
-      "x": 256,
-      "y": 64,
+      "x": -58,
+      "y": 158,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -113,8 +91,8 @@
       "name": "Plant_Obstacle",
       "persistentUuid": "726d874b-fb5d-4e42-82f6-c3d2ab5aefbd",
       "width": 0,
-      "x": 896,
-      "y": 640,
+      "x": 899,
+      "y": 575,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -129,8 +107,8 @@
       "name": "Plant_Obstacle",
       "persistentUuid": "6dabd131-ae06-40b2-930f-50d1e7026310",
       "width": 0,
-      "x": 576,
-      "y": 640,
+      "x": 530,
+      "y": 616,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -145,8 +123,8 @@
       "name": "Plant_Obstacle",
       "persistentUuid": "4422fbf3-9071-4d22-97ee-f258cac25ee2",
       "width": 0,
-      "x": 192,
-      "y": 64,
+      "x": -62,
+      "y": -125,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -193,8 +171,8 @@
       "name": "Plant_Obstacle",
       "persistentUuid": "e8b8a032-ae32-41b2-9468-0aad5f3d0e6c",
       "width": 0,
-      "x": 1152,
-      "y": 448,
+      "x": 1211,
+      "y": 500,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -202,15 +180,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 66,
       "keepRatio": true,
       "layer": "",
       "name": "Plant_Obstacle",
       "persistentUuid": "0558feb8-600f-40b6-b474-67ea4d4a7bd2",
-      "width": 0,
-      "x": 1152,
-      "y": 384,
+      "width": 58,
+      "x": 1215,
+      "y": 328,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -225,8 +204,8 @@
       "name": "Plant_Obstacle",
       "persistentUuid": "cb56c589-3dec-471f-9f78-46c50bc95adc",
       "width": 0,
-      "x": 768,
-      "y": 640,
+      "x": 831,
+      "y": 577,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -257,8 +236,8 @@
       "name": "Ennemy",
       "persistentUuid": "426a0df5-4249-4048-b215-fdb096416ff0",
       "width": 0,
-      "x": 489,
-      "y": 213,
+      "x": 742,
+      "y": -82,
       "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
@@ -289,8 +268,8 @@
       "name": "Ennemy",
       "persistentUuid": "f9233258-7c44-4605-be3d-afb2d50d5b6e",
       "width": 0,
-      "x": 675,
-      "y": 681,
+      "x": 682,
+      "y": 818,
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -305,8 +284,8 @@
       "name": "Ennemy",
       "persistentUuid": "e9d93d02-3ae1-4d0a-ab3a-8095c0445bda",
       "width": 0,
-      "x": 228,
-      "y": -48,
+      "x": 276,
+      "y": -111,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -321,8 +300,8 @@
       "name": "Ennemy",
       "persistentUuid": "c7142822-e8b4-4c76-8725-a538e7261c05",
       "width": 0,
-      "x": -65,
-      "y": -63,
+      "x": 89,
+      "y": -75,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -369,90 +348,8 @@
       "name": "Ennemy",
       "persistentUuid": "72424b85-1603-4168-b6f7-7b5754758fd1",
       "width": 0,
-      "x": 1307,
-      "y": 341,
-      "zOrder": 11,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "GameOver2",
-      "persistentUuid": "56d25d76-0c66-4a4a-be82-a24f56c57ea9",
-      "width": 0,
-      "x": 352,
-      "y": 122,
-      "zOrder": 12,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "timer",
-      "persistentUuid": "b4db0d62-56ec-4e98-8c67-3eac484414fb",
-      "width": 0,
-      "x": 536,
-      "y": 273,
-      "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "",
-      "name": "bestTimer",
-      "persistentUuid": "f6ae32d0-8dad-4c52-ad1e-cb4b77edd333",
-      "width": 0,
-      "x": 538,
-      "y": 396,
-      "zOrder": 14,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 64,
-      "height": 82,
-      "keepRatio": true,
-      "layer": "",
-      "name": "FloatingOutButtonDarkBlue",
-      "persistentUuid": "3dd97d00-8252-4428-988c-770c7a73343a",
-      "width": 234,
-      "x": 507,
-      "y": 507,
-      "zOrder": 15,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 968,
-      "keepRatio": true,
-      "layer": "",
-      "name": "BG_GameOver",
-      "persistentUuid": "2195b3bf-344c-4185-8124-65514db065a9",
-      "width": 1631,
-      "x": -1766,
-      "y": -95,
+      "x": 1342,
+      "y": 324,
       "zOrder": 11,
       "numberProperties": [],
       "stringProperties": [],
@@ -467,8 +364,8 @@
       "name": "Plant_Obstacle",
       "persistentUuid": "57f8583c-d250-469e-a57d-ac5d5d085adf",
       "width": 0,
-      "x": 4,
-      "y": 607,
+      "x": -65,
+      "y": 630,
       "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
@@ -483,9 +380,434 @@
       "name": "Plant_Obstacle",
       "persistentUuid": "7fa55121-481a-415c-be5a-344147a34f29",
       "width": 0,
-      "x": 63,
-      "y": 564,
+      "x": 250,
+      "y": 483,
       "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 192,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall_Obstacle",
+      "persistentUuid": "c66e730d-1f8f-4c53-9aa2-12d930ccdae6",
+      "width": 1306,
+      "x": -16,
+      "y": -275,
+      "zOrder": -1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 263,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Wall_Obstacle",
+      "persistentUuid": "01ff4c5d-e42e-494f-b9d4-c113845f5f93",
+      "width": 1407,
+      "x": -49,
+      "y": 745,
+      "zOrder": -1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1433,
+      "keepRatio": true,
+      "layer": "",
+      "name": "BG",
+      "persistentUuid": "9da545a6-9ca2-4263-91b6-1ac7761b9a18",
+      "width": 2012,
+      "x": -349,
+      "y": -427,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant_Obstacle",
+      "persistentUuid": "c48fc1ff-a411-42c9-b43b-8ffea1e2c4c8",
+      "width": 0,
+      "x": -63,
+      "y": 227,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant_Obstacle",
+      "persistentUuid": "f15c7d29-126c-4038-b218-4a89705d6358",
+      "width": 0,
+      "x": -63,
+      "y": 302,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant_Obstacle",
+      "persistentUuid": "843865df-abc9-49c2-bf10-527817954662",
+      "width": 0,
+      "x": -63,
+      "y": 367,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant_Obstacle",
+      "persistentUuid": "7ed7af20-98f7-452f-9fd7-bcb168e03c59",
+      "width": 0,
+      "x": -63,
+      "y": 427,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant_Obstacle",
+      "persistentUuid": "9990e2a4-f383-4490-b965-06f98e0e7a8e",
+      "width": 0,
+      "x": -62,
+      "y": 484,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant_Obstacle",
+      "persistentUuid": "2604d87a-8cb3-4d6b-952f-c64c6e1cb631",
+      "width": 0,
+      "x": -63,
+      "y": 558,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant_Obstacle",
+      "persistentUuid": "4668b629-23c3-41d6-b862-79351434f3e7",
+      "width": 0,
+      "x": 1207,
+      "y": 251,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 66,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant_Obstacle",
+      "persistentUuid": "a1cb91d4-d8d2-47ce-8070-0e3ed3940332",
+      "width": 58,
+      "x": 1219,
+      "y": 577,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 278,
+      "customSize": true,
+      "depth": 1,
+      "height": 66,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant_Obstacle",
+      "persistentUuid": "f3398369-15a5-48b4-bd90-d6b80caf3a98",
+      "width": 58,
+      "x": 1213,
+      "y": 658,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 66,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant_Obstacle",
+      "persistentUuid": "26d09264-7e46-42a1-8942-8d2715d9b533",
+      "width": 58,
+      "x": 1221,
+      "y": 26,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant_Obstacle",
+      "persistentUuid": "8fd03c15-3dc9-4386-98fa-2e5ebaa4f6ef",
+      "width": 0,
+      "x": 1217,
+      "y": 411,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant_Obstacle",
+      "persistentUuid": "8ffc8091-669b-4921-a01a-ef2842da26be",
+      "width": 0,
+      "x": 1243,
+      "y": 192,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant_Obstacle",
+      "persistentUuid": "21887243-0da7-4c8c-bd9a-30521047492e",
+      "width": 0,
+      "x": -61,
+      "y": 17,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant_Obstacle",
+      "persistentUuid": "30958531-a0d5-464e-854a-b84d43e896c0",
+      "width": 0,
+      "x": -62,
+      "y": -51,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant_Obstacle",
+      "persistentUuid": "2b738e51-572c-4e46-af1d-ade39b684c63",
+      "width": 0,
+      "x": 1217,
+      "y": -117,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant_Obstacle",
+      "persistentUuid": "abead418-bffb-48ec-8fa2-4322c89114ad",
+      "width": 0,
+      "x": -61,
+      "y": 86,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 66,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant_Obstacle",
+      "persistentUuid": "8195c5f0-d27c-4203-b04d-ff89b0397bdd",
+      "width": 61,
+      "x": 1220,
+      "y": -47,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 66,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant_Obstacle",
+      "persistentUuid": "d23121ee-cc31-4d02-aa72-8d528f97757e",
+      "width": 58,
+      "x": 1223,
+      "y": 95,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1845,
+      "keepRatio": true,
+      "layer": "",
+      "name": "BG_GameOver",
+      "persistentUuid": "693eb515-bce6-4bc4-9d40-4f3141c2d8fc",
+      "width": 3237,
+      "x": -4338,
+      "y": -692,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "GameOver2",
+      "persistentUuid": "87feef4a-12fe-499e-8b33-f5677d833332",
+      "width": 0,
+      "x": -2663,
+      "y": -402,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "timer",
+      "persistentUuid": "0b085859-f429-417d-8bb5-9a37b0bf4cc1",
+      "width": 0,
+      "x": -2670,
+      "y": -162,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "bestTimer",
+      "persistentUuid": "a428ad09-8dfe-44ba-b87d-5020c476fd51",
+      "width": 0,
+      "x": -2590,
+      "y": 52,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FloatingOutButtonDarkBlue",
+      "persistentUuid": "0ec42b7a-1d9b-4889-93ec-de3c23f23c0e",
+      "width": 0,
+      "x": -2616,
+      "y": 298,
+      "zOrder": 16,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -620,34 +942,6 @@
           ]
         }
       ]
-    },
-    {
-      "assetStoreId": "",
-      "name": "Ground_Tilemap",
-      "persistentUuid": "f278d8c8-d2f6-4aa3-9a79-4933b76acd8c",
-      "type": "TileMap::SimpleTileMap",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "atlasImage": "assets\\StartingGroundTilemap.png",
-        "rowCount": 3,
-        "columnCount": 3,
-        "tileSize": 64,
-        "tilesWithHitBox": ""
-      }
-    },
-    {
-      "assetStoreId": "",
-      "height": 64,
-      "name": "Wall_Obstacle",
-      "persistentUuid": "bf1c8787-0a42-4dc9-b12f-d9633d5c6f23",
-      "texture": "assets\\StartingWall.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 64,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
     },
     {
       "adaptCollisionMaskAutomatically": false,
@@ -1112,6 +1406,129 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Wall_Obstacle",
+      "persistentUuid": "1a66e43b-a110-4ed8-8efe-e73b204f6f12",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "InvertedJam/assets/bord",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "InvertedJam/assets/bot.webp",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 740,
+                        "y": 0
+                      },
+                      {
+                        "x": 740,
+                        "y": 160
+                      },
+                      {
+                        "x": 0,
+                        "y": 160
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "BG",
+      "persistentUuid": "ce00775f-b075-4eba-80b6-30a6623afde1",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "InvertedJam/assets/BG.webp",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 740,
+                        "y": 0
+                      },
+                      {
+                        "x": 740,
+                        "y": 604
+                      },
+                      {
+                        "x": 0,
+                        "y": 604
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1136,12 +1553,6 @@
         "objectName": "InvertedEnnemy"
       },
       {
-        "objectName": "Ground_Tilemap"
-      },
-      {
-        "objectName": "Wall_Obstacle"
-      },
-      {
         "objectName": "Plant_Obstacle"
       },
       {
@@ -1149,6 +1560,12 @@
       },
       {
         "objectName": "BG_GameOver"
+      },
+      {
+        "objectName": "Wall_Obstacle"
+      },
+      {
+        "objectName": "BG"
       }
     ]
   },
@@ -1235,18 +1652,6 @@
             "Opacity",
             "=",
             "45"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetXY"
-          },
-          "parameters": [
-            "BG_GameOver",
-            "=",
-            "0",
-            "=",
-            "0"
           ]
         },
         {
@@ -1573,6 +1978,66 @@
             "TopDownMovement",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "GameOver2",
+            "=",
+            "CameraX()",
+            "=",
+            "CameraY() - 190"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "timer",
+            "=",
+            "CameraX()",
+            "=",
+            "CameraY() - 50"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "bestTimer",
+            "=",
+            "CameraX()",
+            "=",
+            "CameraY() + 50"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "FloatingOutButtonDarkBlue",
+            "=",
+            "CameraX()",
+            "=",
+            "CameraY() + 200"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "BG_GameOver",
+            "=",
+            "CameraX() - 500",
+            "=",
+            "CameraY() -500"
+          ]
         }
       ]
     },
@@ -1601,11 +2066,6 @@
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ],
   "layers": [
@@ -1636,24 +2096,6 @@
           "width": 0
         }
       ],
-      "effects": []
-    },
-    {
-      "ambientLightColorB": 200,
-      "ambientLightColorG": 200,
-      "ambientLightColorR": 200,
-      "camera2DPlaneMaxDrawingDistance": 5000,
-      "camera3DFarPlaneDistance": 10000,
-      "camera3DFieldOfView": 45,
-      "camera3DNearPlaneDistance": 3,
-      "cameraType": "",
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "isLocked": false,
-      "name": "MobileControls",
-      "renderingType": "",
-      "visibility": true,
-      "cameras": [],
       "effects": []
     }
   ],

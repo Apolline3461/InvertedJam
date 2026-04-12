@@ -302,6 +302,30 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/44aceaa249d2ecb8bfe3eb7bedcb17aac44c0f5f13f9f58d85427a5afa7e92f0_CarterOne-Regular.ttf",
           "name": "CarterOne-Regular.ttf"
         }
+      },
+      {
+        "file": "InvertedJam/assets/BG.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "InvertedJam/assets/BG.webp",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/InvertedJam/assets/bord.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/InvertedJam/assets/bord.png\"}",
+        "name": "InvertedJam/assets/bord",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "InvertedJam/assets/bot.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "InvertedJam/assets/bot.webp",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
