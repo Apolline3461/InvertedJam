@@ -743,7 +743,7 @@
       "width": 3237,
       "x": -4338,
       "y": -692,
-      "zOrder": 12,
+      "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -759,7 +759,7 @@
       "width": 0,
       "x": -2663,
       "y": -402,
-      "zOrder": 13,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -775,7 +775,7 @@
       "width": 0,
       "x": -2670,
       "y": -162,
-      "zOrder": 14,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -791,7 +791,7 @@
       "width": 0,
       "x": -2590,
       "y": 52,
-      "zOrder": 15,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -807,7 +807,7 @@
       "width": 0,
       "x": -2616,
       "y": 298,
-      "zOrder": 16,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1645,13 +1645,23 @@
         },
         {
           "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Player",
+            "SmoothCamera",
+            "yes"
+          ]
+        },
+        {
+          "type": {
             "value": "OpacityCapability::OpacityBehavior::SetValue"
           },
           "parameters": [
             "BG_GameOver",
             "Opacity",
             "=",
-            "45"
+            "150"
           ]
         },
         {
@@ -1661,6 +1671,15 @@
           "parameters": [
             "",
             "\"Game\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"Spawn\""
           ]
         }
       ]
@@ -1698,6 +1717,65 @@
             "Player",
             "Plant_Obstacle",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "GameOver",
+            "=",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"Spawn\"",
+            ">",
+            "0.8"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "Ennemy",
+            "RandomInRange(0, 1200)",
+            "RandomInRange(0,500)",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"Spawn\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetZOrder"
+          },
+          "parameters": [
+            "Ennemy",
+            "=",
+            "13"
           ]
         }
       ]
@@ -1864,6 +1942,16 @@
                     "Ennemy",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetZOrder"
+                  },
+                  "parameters": [
+                    "InvertedEnnemy",
+                    "=",
+                    "13"
+                  ]
                 }
               ]
             }
@@ -1976,6 +2064,16 @@
           "parameters": [
             "Player",
             "TopDownMovement",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Player",
+            "SmoothCamera",
             ""
           ]
         },
