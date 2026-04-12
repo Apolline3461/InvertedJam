@@ -1,13 +1,13 @@
 {
-  "b": 255,
+  "b": 197,
   "disableInputWhenNotFocused": true,
   "mangledName": "Game_32Scene",
   "name": "Game Scene",
-  "r": 255,
+  "r": 222,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 255,
+  "v": 247,
   "uiSettings": {
     "grid": false,
     "gridType": "rectangular",
@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5653158055126329,
+    "zoomFactor": 0.39251611754882443,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -116,23 +116,6 @@
       "x": 896,
       "y": 640,
       "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 128,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Wall_Obstacle",
-      "persistentUuid": "22bf0d32-275e-4e74-b120-bfa34be62474",
-      "width": 128,
-      "x": 0,
-      "y": 384,
-      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -267,23 +250,6 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 128,
-      "keepRatio": true,
-      "layer": "",
-      "name": "Wall_Obstacle",
-      "persistentUuid": "c7ce716c-4fa4-4a66-9ec8-e0fd2a3937c4",
-      "width": 128,
-      "x": 896,
-      "y": 0,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "keepRatio": true,
@@ -326,6 +292,200 @@
       "x": 675,
       "y": 681,
       "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Ennemy",
+      "persistentUuid": "e9d93d02-3ae1-4d0a-ab3a-8095c0445bda",
+      "width": 0,
+      "x": 228,
+      "y": -48,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Ennemy",
+      "persistentUuid": "c7142822-e8b4-4c76-8725-a538e7261c05",
+      "width": 0,
+      "x": -65,
+      "y": -63,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Ennemy",
+      "persistentUuid": "a054825b-9f8e-4dbe-8c15-96f6b5444037",
+      "width": 0,
+      "x": 1323,
+      "y": 732,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Ennemy",
+      "persistentUuid": "3151b0c6-63e3-466c-a1c9-00e6575160f3",
+      "width": 0,
+      "x": -33,
+      "y": 778,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Ennemy",
+      "persistentUuid": "72424b85-1603-4168-b6f7-7b5754758fd1",
+      "width": 0,
+      "x": 1307,
+      "y": 341,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "GameOver2",
+      "persistentUuid": "56d25d76-0c66-4a4a-be82-a24f56c57ea9",
+      "width": 0,
+      "x": 352,
+      "y": 122,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "timer",
+      "persistentUuid": "b4db0d62-56ec-4e98-8c67-3eac484414fb",
+      "width": 0,
+      "x": 536,
+      "y": 273,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "bestTimer",
+      "persistentUuid": "f6ae32d0-8dad-4c52-ad1e-cb4b77edd333",
+      "width": 0,
+      "x": 538,
+      "y": 396,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 64,
+      "height": 82,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FloatingOutButtonDarkBlue",
+      "persistentUuid": "3dd97d00-8252-4428-988c-770c7a73343a",
+      "width": 234,
+      "x": 507,
+      "y": 507,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 968,
+      "keepRatio": true,
+      "layer": "",
+      "name": "BG_GameOver",
+      "persistentUuid": "2195b3bf-344c-4185-8124-65514db065a9",
+      "width": 1631,
+      "x": -1766,
+      "y": -95,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant_Obstacle",
+      "persistentUuid": "57f8583c-d250-469e-a57d-ac5d5d085adf",
+      "width": 0,
+      "x": 4,
+      "y": 607,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Plant_Obstacle",
+      "persistentUuid": "7fa55121-481a-415c-be5a-344147a34f29",
+      "width": 0,
+      "x": 63,
+      "y": 564,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -481,6 +641,7 @@
       "assetStoreId": "",
       "height": 64,
       "name": "Wall_Obstacle",
+      "persistentUuid": "bf1c8787-0a42-4dc9-b12f-d9633d5c6f23",
       "texture": "assets\\StartingWall.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 64,
@@ -492,6 +653,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Plant_Obstacle",
+      "persistentUuid": "960cf530-afeb-4aa0-a073-4f978de7783f",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -609,7 +771,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "default",
+                  "image": "Ennemy",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -699,7 +861,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "default2",
+                  "image": "assets/InvertedEn.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -738,6 +900,218 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "GameOver2",
+      "persistentUuid": "e88eefbd-28ef-4a85-afa9-0be40c81adf3",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "GAME OVER",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 90,
+      "color": {
+        "b": 27,
+        "g": 2,
+        "r": 208
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 1,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "GAME OVER",
+        "font": "",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 90,
+        "lineHeight": 0,
+        "color": "208;2;27"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "timer",
+      "persistentUuid": "c904259f-122d-46c3-9280-7fe32febc6d4",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Timer :",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 70,
+      "color": {
+        "b": 27,
+        "g": 2,
+        "r": 208
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 1,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Timer :",
+        "font": "",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 70,
+        "lineHeight": 0,
+        "color": "208;2;27"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "bestTimer",
+      "persistentUuid": "ce4d2a7c-7674-4f91-b350-1ae88a77c47a",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Best :",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 70,
+      "color": {
+        "b": 27,
+        "g": 2,
+        "r": 208
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 1,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Best :",
+        "font": "",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 70,
+        "lineHeight": 0,
+        "color": "208;2;27"
+      }
+    },
+    {
+      "assetStoreId": "d00645a899e762e085fa6fdf2625701baea9cc10ee903a64ca7d371e5bbb8dca",
+      "name": "FloatingOutButtonDarkBlue",
+      "persistentUuid": "286d1146-9ae8-49c1-a76a-326c4e9f06ee",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "Floating Out Button Dark Blue",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 0,
+        "RightPadding": 0,
+        "PressedLabelOffsetY": 2,
+        "BottomPadding": 4,
+        "TopPadding": 0,
+        "HoveredFadeOutDuration": 0,
+        "LabelText": "RE START"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "BG_GameOver",
+      "persistentUuid": "1080bda5-13ed-484c-bf4e-ab6f688b463e",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "default",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "BG_GameOver2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1200,
+                        "y": 0
+                      },
+                      {
+                        "x": 1200,
+                        "y": 1200
+                      },
+                      {
+                        "x": 0,
+                        "y": 1200
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -745,6 +1119,15 @@
     "children": [
       {
         "objectName": "Player"
+      },
+      {
+        "objectName": "GameOver2"
+      },
+      {
+        "objectName": "timer"
+      },
+      {
+        "objectName": "bestTimer"
       },
       {
         "objectName": "Ennemy"
@@ -760,10 +1143,114 @@
       },
       {
         "objectName": "Plant_Obstacle"
+      },
+      {
+        "objectName": "FloatingOutButtonDarkBlue"
+      },
+      {
+        "objectName": "BG_GameOver"
       }
     ]
   },
   "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SceneJustBegins"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "GameOver2"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "GameOver",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "BG_GameOver"
+          ]
+        },
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "timer"
+          ]
+        },
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "bestTimer"
+          ]
+        },
+        {
+          "type": {
+            "value": "Hide"
+          },
+          "parameters": [
+            "FloatingOutButtonDarkBlue"
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Player",
+            "TopDownMovement",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "BG_GameOver",
+            "Opacity",
+            "=",
+            "45"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetXY"
+          },
+          "parameters": [
+            "BG_GameOver",
+            "=",
+            "0",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
@@ -818,6 +1305,73 @@
       "actions": [],
       "events": [
         {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PickNearest"
+              },
+              "parameters": [
+                "Ennemy",
+                "InvertedEnnemy.X()",
+                "InvertedEnnemy.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceTowardObject"
+              },
+              "parameters": [
+                "InvertedEnnemy",
+                "Ennemy",
+                "60",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "InvertedEnnemy",
+                    "Ennemy",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Ennemy",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "InvertedEnnemy",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
@@ -828,7 +1382,7 @@
               "parameters": [
                 "Ennemy",
                 "Player",
-                "50",
+                "75",
                 "0"
               ]
             }
@@ -905,30 +1459,118 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Player",
+            "Ennemy",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
       "actions": [
         {
           "type": {
-            "value": "PickNearest"
+            "value": "SetBooleanVariable"
           },
           "parameters": [
-            "Ennemy",
-            "InvertedEnnemy.X()",
-            "InvertedEnnemy.Y()"
+            "GameOver",
+            "True",
+            ""
           ]
         },
         {
           "type": {
-            "value": "AddForceTowardObject"
+            "value": "Show"
           },
           "parameters": [
-            "InvertedEnnemy",
-            "Ennemy",
-            "60",
+            "BG_GameOver",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Show"
+          },
+          "parameters": [
+            "GameOver2",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Show"
+          },
+          "parameters": [
+            "timer",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Show"
+          },
+          "parameters": [
+            "bestTimer",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Show"
+          },
+          "parameters": [
+            "FloatingOutButtonDarkBlue",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ActivateBehavior"
+          },
+          "parameters": [
+            "Player",
+            "TopDownMovement",
             ""
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "FloatingOutButtonDarkBlue",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Game Scene\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
@@ -1008,6 +1650,10 @@
     {
       "name": "SmoothCamera",
       "type": "SmoothCamera::SmoothCamera"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     },
     {
       "name": "TopDownMovement",
