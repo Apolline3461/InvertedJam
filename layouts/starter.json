@@ -860,21 +860,24 @@
         },
         {
           "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "arrow",
-            "=",
-            "0"
-          ]
-        },
-        {
-          "type": {
             "value": "ActivateBehavior"
           },
           "parameters": [
             "Player",
             "SmoothCamera",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlayMusicOnChannel"
+          },
+          "parameters": [
+            "",
+            "InvertedJam/assets/musique.mp3",
+            "1",
+            "yes",
+            "",
             ""
           ]
         }

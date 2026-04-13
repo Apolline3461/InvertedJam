@@ -5,7 +5,7 @@
   "name": "Game Scene",
   "r": 222,
   "standardSortMethod": true,
-  "stopSoundsOnStartup": true,
+  "stopSoundsOnStartup": false,
   "title": "",
   "v": 247,
   "uiSettings": {
@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.1500267925502572,
+    "zoomFactor": 0.546875000000007,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -811,6 +811,23 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 49,
+      "keepRatio": true,
+      "layer": "",
+      "name": "currentT",
+      "persistentUuid": "88c14a69-d0c8-4d15-8f3e-ff544e025e78",
+      "width": 155,
+      "x": 1095,
+      "y": 25,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -1248,10 +1265,16 @@
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "currentTime",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [],
-      "string": "Timer :",
+      "string": "Timer : ",
       "font": "",
       "textAlignment": "center",
       "characterSize": 70,
@@ -1274,7 +1297,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Timer :",
+        "text": "Timer : ",
         "font": "",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
@@ -1295,7 +1318,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Best :",
+      "string": "Best : ",
       "font": "",
       "textAlignment": "center",
       "characterSize": 70,
@@ -1318,7 +1341,7 @@
         "shadowOpacity": 127,
         "smoothed": true,
         "underlined": false,
-        "text": "Best :",
+        "text": "Best : ",
         "font": "",
         "textAlignment": "center",
         "verticalTextAlignment": "top",
@@ -1529,6 +1552,50 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "currentT",
+      "persistentUuid": "2d4a78df-e2aa-45a8-a9ba-f6156bae2a87",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "",
+      "font": "",
+      "textAlignment": "right",
+      "characterSize": 55,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 5,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "",
+        "font": "",
+        "textAlignment": "right",
+        "verticalTextAlignment": "top",
+        "characterSize": 55,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -1542,6 +1609,9 @@
       },
       {
         "objectName": "timer"
+      },
+      {
+        "objectName": "currentT"
       },
       {
         "objectName": "bestTimer"
@@ -1681,6 +1751,28 @@
             "",
             "\"Spawn\""
           ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "bestTimer",
+            "Text",
+            "=",
+            "\"Best timer: \" + ToString(GlobalVariable(TIMERSUPRA)) + \"s\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "timer",
+            "currentTime",
+            "=",
+            "0"
+          ]
         }
       ]
     },
@@ -1717,6 +1809,29 @@
             "Player",
             "Plant_Obstacle",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "currentT",
+            "Text",
+            "=",
+            "ToString(roundTo(TimerElapsedTime(\"Game\"), 3))"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetXY"
+          },
+          "parameters": [
+            "currentT",
+            "=",
+            "CameraX() +400",
+            "=",
+            "CameraY() - 300"
           ]
         }
       ]
@@ -1993,13 +2108,24 @@
         },
         {
           "type": {
+            "value": "SetNumberObjectVariable"
+          },
+          "parameters": [
+            "timer",
+            "currentTime",
+            "=",
+            "roundTo(TimerElapsedTime(\"Game\"), 3)"
+          ]
+        },
+        {
+          "type": {
             "value": "TextContainerCapability::TextContainerBehavior::SetValue"
           },
           "parameters": [
             "timer",
             "Text",
             "+",
-            "ToString(roundTo(TimerElapsedTime(\"Game\"), 3)) + \"s\""
+            "ToString(timer.currentTime) + \"s\""
           ]
         },
         {
@@ -2135,6 +2261,47 @@
             "CameraX() - 500",
             "=",
             "CameraY() -500"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "timer",
+                "currentTime",
+                ">",
+                "TIMERSUPRA"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "TIMERSUPRA",
+                "=",
+                "timer.currentTime"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "bestTimer",
+                "Text",
+                "=",
+                "\"Best timer: \" + ToString(GlobalVariable(TIMERSUPRA)) + \"s\""
+              ]
+            }
           ]
         }
       ]
